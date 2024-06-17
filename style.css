@@ -1,14 +1,13 @@
-:root{
+:root {
     --pink: #f14e95;
     --bg: #0e0e0e;
-    --shadow: 0 2px 2px rgba(0,0,0,0.5);
-    --daun:#325e2a;
+    --shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+    --daun: #325e2a;
 }
 
-body{
+body {
     font-size: 1.2rem;
     font-family: "Work Sans", sans-serif;
-    
 }
 
 .hero::before {
@@ -22,62 +21,65 @@ body{
     background-size: cover;
     background-position: center;
     z-index: -1;
-    filter: blur();
+    filter: blur(3px); /* Adjusted filter blur */
 }
 
-.hero{
+.hero {
     position: relative;
     min-height: 100vh;
 }
 
-.hero h1{
+.hero h1 {
     font-family: "Sacramento", cursive;
     font-size: 6rem;
 }
 
-.hero h4{
+.hero h4 {
     font-size: 1.6rem;
 }
 
-.hero p{
+.hero p {
     font-size: 1.4rem;
 }
 
-.hero h1, .hero h4, .hero p{
+.hero h1,
+.hero h4,
+.hero p {
     text-shadow: var(--shadow);
 }
 
-.hero a{
+.hero a {
     color: white;
     background-color: var(--daun);
-    box-shadow: var(--bg);
+    box-shadow: var(--shadow);
 }
 
-.hero a:hover{
+.hero a:hover {
     color: var(--daun);
     background-color: white;
 }
 
 .mynavbar {
-    background-color: rgba(255, 255, 255, 0.3)!important;
+    background-color: rgba(255, 255, 255, 0.3) !important;
     backdrop-filter: blur(4px);
 }
 
-.mynavbar .offcanvas{
+.mynavbar .offcanvas {
     height: 100vh;
 }
 
-.mynavbar .navbar-brand, .mynavbar .offcanvas-title{
+.mynavbar .navbar-brand,
+.mynavbar .offcanvas-title {
     font-family: "Sacramento", cursive;
     font-size: 3.2rem;
     font-weight: bold;
 }
 
-.mynavbar .nav-link{
+.mynavbar .nav-link {
     text-transform: uppercase;
 }
 
-.home{
+.home {
     background-image: url(img/bg-home.png);
     background-size: cover;
     min-height: 100vh;
@@ -86,51 +88,54 @@ body{
     padding-bottom: 5rem;
 }
 
-.home h2, .info h2, .rsvp h2, .gifts h2{
+.home h2,
+.info h2,
+.rsvp h2,
+.gifts h2 {
     color: var(--daun);
     font-family: 'Sacramento';
     font-size: 5rem;
     font-weight: bold;
 }
 
-.home h3{
+.home h3 {
     color: #444;
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
-.home p{
+.home p {
     color: #666;
-    font-size: 1;
+    font-size: 1rem;
 }
 
-.home .couple{
+.home .couple {
     margin-top: 100px;
 }
 
-.home .couple h3{
+.home .couple h3 {
     font-family: 'Sacramento';
     font-size: 2.4rem;
     color: var(--daun);
 }
 
-.home .couple img{
+.home .couple img {
     width: 100%;
 }
 
-.home .heart{
+.home .heart {
     width: 50px;
     height: 50px;
     background-color: white;
     display: flex;
     border-radius: 50%;
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     position: absolute;
     left: 50%;
     transform: translateX(-50%) translateY(65px);
 }
 
-.home .heart i{
+.home .heart i {
     margin: auto;
     color: var(--daun);
 }
@@ -142,40 +147,40 @@ body{
     padding-bottom: 10rem;
 }
 
-.info .alamat{
+.info .alamat {
     font-size: 1.1rem;
-
 }
 
-.info .deskripsi, .rsvp p, .gifts p{
+.info .deskripsi,
+.rsvp p,
+.gifts p {
     font-size: 1rem;
     font-weight: 300;
 }
 
-
 .info .card {
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     color: white;
     border: 1px solid #999;
-    }
-    
-.info .card-header{
+}
+
+.info .card-header {
     border-bottom: 1px solid #999;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-        
 }
 
-.info .card-body{
+.info .card-body {
     font-size: 1rem;
 }
 
-.rsvp, .gifts{
+.rsvp,
+.gifts {
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
 
-.gifts span{
+.gifts span {
     text-transform: uppercase;
     color: #666;
     font-size: 0.9rem;
@@ -184,47 +189,47 @@ body{
     margin-bottom: 1rem;
 }
 
-.rsvp{
+.rsvp {
     background-color: var(--bg);
 }
 
-.rsvp h2{
+.rsvp h2 {
     font-size: 4.5rem;
 }
 
-.rsvp p{
+.rsvp p {
     color: white;
 }
 
-.rsvp form label{
-   color: white; 
+.rsvp form label {
+    color: white;
 }
 
-.rsvp button{
+.rsvp button {
     background-color: var(--daun);
     color: white;
     border: 1px solid var(--daun);
 }
 
-.rsvp button:hover{
+.rsvp button:hover {
     background-color: white;
     color: var(--daun);
     border: 1px solid white;
 }
 
-footer{
+footer {
     padding: 0.4rem;
     background-color: var(--daun);
     color: white;
 }
 
-footer a{
+footer a {
     color: var(--bg);
     font-weight: bold;
     text-decoration: none;
 }
 
-.audio-icon-wrapper{
+.audio-icon-wrapper {
     width: 4rem;
     height: 4rem;
     font-size: 4rem;
@@ -250,80 +255,79 @@ footer a{
     to {
         transform: rotate(360deg);
     }
-
-    
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 0.5rem;
     background: var(--bg);
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
     width: 0.5rem;
     background: var(--daun);
     border-radius: 5rem;
 }
 
-
-/* media query */
-/* extra large */
-@media (max-width: 1200px){
-    .home .heart{
+/* Media Queries */
+/* Extra Large */
+@media (max-width: 1200px) {
+    .home .heart {
         transform: translateX(-50%) translateY(42px);
     }
 }
 
-/* laptop */
+/* Laptop */
 @media (max-width: 992px) {
-    html{
-        font-size: 75%;
+    html {
+        font-size: 75%; /* Adjusted font size */
     }
 
-    .simply-countdown>.simply-section{
-        padding: 40px;
+    .simply-countdown > .simply-section {
+        padding: 40px; /* Adjusted padding */
     }
-    .home .heart{
-        display: none;
+
+    .home .heart {
+        display: none; /* Hidden heart icon */
     }
-    
-    .info .maps{
-        height: 200px;
+
+    .info .maps {
+        height: 200px; /* Adjusted height */
     }
 }
 
-/* tablet */
+/* Tablet */
 @media (max-width: 768px) {
-    html{
-        font-size: 65%;
+    html {
+        font-size: 65%; /* Adjusted font size */
     }
 
-    .simply-countdown>.simply-section{
+    .simply-countdown > .simply-section {
         padding: 35px;
-        margin: 5px;
+        margin: 5px; /* Adjusted padding and margin */
     }
 
-    .mynavbar .nav-link{
+    .mynavbar .nav-link {
         font-size: 2rem;
-        text-align: center;
+        text-align: center; /* Centered navigation links */
     }
 
-    .info .maps{
-        height: 150px;
+    .info .maps {
+        height: 150px; /* Adjusted height */
     }
 }
 
-/* hp */
+/* HP */
 @media (max-width: 576px) {
-    html{
-        font-size: 60%;
+    html {
+        font-size: 60%; /* Adjusted font size */
     }
 
-    .simply-countdown>.simply-section{
+    .simply-countdown > .simply-section {
         padding: 30px;
-        margin: 3px;
+        margin: 3px; /* Adjusted padding and margin */
     }
 
-    .info .maps{
-        height: 100px;
+    .info .maps {
+        height: 100px; /* Adjusted height */
     }
 }
