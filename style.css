@@ -337,4 +337,8 @@ footer a {
     .info .maps {
         height: 100px; /* Adjusted height */
     }
+
+    .rsvp h2 {
+        font-size: 50%;
+    }
 }
