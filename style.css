@@ -319,7 +319,7 @@ footer a {
 /* HP */
 @media (max-width: 576px) {
     html {
-        font-size: 45%; /* Adjusted font size */
+        font-size: 50%; /* Adjusted font size */
     }
 
     .simply-countdown {
