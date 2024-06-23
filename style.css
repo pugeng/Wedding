@@ -330,13 +330,11 @@ footer a {
 
     .simply-countdown > .simply-section {
         padding: 30px;
-        margin: 3px; /* Adjusted padding and margin */
-        text-align: center;
-        max-width: 100%;
+        text-align: center; /* Center align content */
+        max-width: 100%; /* Ensure it doesn't exceed the screen width */
     }
 
     .info .maps {
         height: 100px; /* Adjusted height */
     }
-    
 }
