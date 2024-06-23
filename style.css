@@ -326,6 +326,7 @@ footer a {
         padding: 30px;
         margin: 3px; /* Adjusted padding and margin */
         text-align: center;
+        max-width: 100%;
     }
 
     .info .maps {
