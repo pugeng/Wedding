@@ -324,9 +324,8 @@ footer a {
 
     .simply-countdown > .simply-section {
         padding: 30px;
-        margin: 3px;
-        justify-content: center;
-        align-items: center; /* Adjusted padding and margin */
+        margin: 3px; /* Adjusted padding and margin */
+        text-align: center;
     }
 
     .info .maps {
