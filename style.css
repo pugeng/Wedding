@@ -322,6 +322,12 @@ footer a {
         font-size: 60%; /* Adjusted font size */
     }
 
+    .simply-countdown {
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Center align vertically */
+    }
+
     .simply-countdown > .simply-section {
         padding: 30px;
         margin: 3px; /* Adjusted padding and margin */
